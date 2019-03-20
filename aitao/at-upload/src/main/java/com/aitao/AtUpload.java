@@ -1,19 +1,20 @@
 package com.aitao;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @author: 局长
- * @date: 2019/1/21 14:44
+ * @date: 2019/2/22 23:02
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("com.aitao.item.mapper")
-public class AtItemService {
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+public class AtUpload {
     public static void main(String[] args) {
-        SpringApplication.run(AtItemService.class,args);
+        SpringApplication.run(AtUpload.class, args);
     }
 }

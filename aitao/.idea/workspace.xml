@@ -1,116 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd64e87-d466-48fd-8ea7-faa8be4d20ed" name="Default Changelist" comment="局长创建父工程完成第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aitao-registry/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="5fd64e87-d466-48fd-8ea7-faa8be4d20ed" name="Default Changelist" comment="registry">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-api-gateway/src/main/java/com/aitao/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-common/at-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com/aitao/common/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-interface/src/main/java/com/aitao/item/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-interface/src/main/java/com/aitao/item/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/serviceImpl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/at-upload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/AtUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/FastClientImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/mapper/UploadMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/serviceImpl/UploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at-upload/src/test/java/com/aitao/test/Yy1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aitao-registry/aitao-registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aitao-registry/aitao-registry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/at-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/at-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/at-item/at-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/at-item/at-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/at-item/at-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/at-item/at-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/AtItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/AtItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/aitao-registry/target/" />
+    <ignored path="$PROJECT_DIR$/at-api-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/at-item-service/target/" />
+    <ignored path="$PROJECT_DIR$/at-item/target/" />
+    <ignored path="$PROJECT_DIR$/at-item/at-item-interface/target/" />
+    <ignored path="$PROJECT_DIR$/at-item/at-item-service/target/" />
+    <ignored path="$PROJECT_DIR$/at-common/target/" />
+    <ignored path="$PROJECT_DIR$/at-upload/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1670479629">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.125" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.252" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.61" value="1" />
-          <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.77" value="2" />
+          <entry key="project.open.time.78" value="2" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.80" value="2" />
+          <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="81" />
-          <entry key="txt" value="39" />
-          <entry key="xml" value="96" />
-          <entry key="yml" value="313" />
+          <entry key="dummy" value="22" />
+          <entry key="java" value="1963" />
+          <entry key="txt" value="58" />
+          <entry key="xml" value="431" />
+          <entry key="yml" value="557" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="81" />
-          <entry key="PLAIN_TEXT" value="39" />
-          <entry key="XML" value="96" />
-          <entry key="YAML" value="313" />
+          <entry key="JAVA" value="1963" />
+          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="XML" value="431" />
+          <entry key="YAML" value="557" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="iml" value="1" />
-          <entry key="java" value="2" />
-          <entry key="xml" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="iml" value="13" />
+          <entry key="java" value="101" />
+          <entry key="xml" value="23" />
+          <entry key="yml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="2" />
-          <entry key="XML" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="IDEA_MODULE" value="13" />
+          <entry key="JAVA" value="101" />
+          <entry key="XML" value="23" />
+          <entry key="YAML" value="33" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aitao-registry/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aitao-registry/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -121,10 +143,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/aitao-registry/pom.xml" />
-        <option value="$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java" />
+        <option value="$PROJECT_DIR$/at-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/at-api-gateway/src/main/java/com/aitao/AtApiGateway.java" />
+        <option value="$PROJECT_DIR$/at-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/at-item/pom.xml" />
         <option value="$PROJECT_DIR$/aitao-registry/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java" />
+        <option value="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/IdWorker.java" />
+        <option value="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/NumberUtils.java" />
+        <option value="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/at-common/pom.xml" />
+        <option value="$PROJECT_DIR$/at-api-gateway/src/main/java/com/aitao/config/GlobalCorsConfig.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/item/serviceImpl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/AtItemService.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/serviceImpl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-interface/src/main/java/com/aitao/item/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-interface/src/main/java/com/aitao/item/pojo/Brand.java" />
+        <option value="$PROJECT_DIR$/at-common/src/main/java/com/aitao/common/pojo/PageResult.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/at-api-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/mapper/BrandMapper.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/serviceImpl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/AtUploadService.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/AtUploadService.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/mapper/UploadMapper.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/serviceImpl/UploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/service/Load.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/mapper/UploadMapper.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/GlobalCorsConfig.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/FastClientExport.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/at-upload/src/test/java/com/aitao/test/FdfsTest.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/test/java/com/aitao/test/Fdfs1Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/FastClientImporter.java" />
+        <option value="$PROJECT_DIR$/at-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/serviceImpl/UploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/AtUpload.java" />
+        <option value="$PROJECT_DIR$/at-upload/src/test/java/com/aitao/test/Yy1Test.java" />
       </list>
     </option>
   </component>
@@ -137,7 +206,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="F:\Maven\MavenRepository" />
         <option name="mavenHome" value="F:/Maven/apache-maven-3.3.9/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\Maven\apache-maven-3.3.9\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -146,10 +218,19 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="691" />
+    <option name="width" value="783" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -158,8 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -168,39 +247,49 @@
               <item name="aitao" type="b2602c69:ProjectViewProjectNode" />
               <item name="aitao" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="aitao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aitao" type="462c0819:PsiDirectoryNode" />
-              <item name="aitao-registry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aitao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aitao" type="462c0819:PsiDirectoryNode" />
-              <item name="aitao-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aitao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aitao" type="462c0819:PsiDirectoryNode" />
-              <item name="aitao-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547997849450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553097595961" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aitao.config" />
+      <recent name="com.aitao.upload.controller" />
+      <recent name="com.aitao.upload.mapper" />
+      <recent name="com.aitao.upload.service" />
+      <recent name="com.aitao.upload.serviceImpl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git局长仓库\aitao\at-common\src\main\java\com.aitao.utils" />
+      <recent name="D:\Git局长仓库\aitao\at-item\at-item-service\src\main\resources" />
+      <recent name="D:\Git局长仓库\aitao\at-api-gateway\src\main\resources" />
+    </key>
+  </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -211,6 +300,126 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.20633695" />
+  </component>
+  <component name="RunManager" selected="JUnit.Yy1Test.testUpload">
+    <configuration name="Fdfs1Test.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="at-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aitao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aitao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.aitao.test.Fdfs1Test" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fdfs1Test.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="at-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aitao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aitao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.aitao.test.Fdfs1Test" />
+      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Yy1Test.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="at-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aitao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aitao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.aitao.test.Yy1Test" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Yy1Test.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="at-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aitao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aitao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.aitao.test.Yy1Test" />
+      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtApiGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="at-api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aitao.AtApiGateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtItemService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="at-item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aitao.AtItemService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtRegistry" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aitao-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aitao.AtRegistry" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtUpload" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="at-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aitao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aitao.AtUpload" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AtRegistry" />
+      <item itemvalue="Spring Boot.AtItemService" />
+      <item itemvalue="Spring Boot.AtApiGateway" />
+      <item itemvalue="Spring Boot.AtUpload" />
+      <item itemvalue="JUnit.Fdfs1Test.testUploadAndCreateThumb" />
+      <item itemvalue="JUnit.Fdfs1Test.testUpload" />
+      <item itemvalue="JUnit.Yy1Test.testUpload" />
+      <item itemvalue="JUnit.Yy1Test.testUploadAndCreateThumb" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Yy1Test.testUpload" />
+        <item itemvalue="Spring Boot.AtUpload" />
+        <item itemvalue="JUnit.Yy1Test.testUploadAndCreateThumb" />
+        <item itemvalue="JUnit.Fdfs1Test.testUpload" />
+        <item itemvalue="JUnit.Fdfs1Test.testUploadAndCreateThumb" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -224,7 +433,28 @@
       <updated>1547983094300</updated>
       <workItem from="1547983139444" duration="8457000" />
       <workItem from="1547993162467" duration="3346000" />
-      <workItem from="1548042825408" duration="1429000" />
+      <workItem from="1548042825408" duration="4205000" />
+      <workItem from="1548049580384" duration="16046000" />
+      <workItem from="1548143451940" duration="862000" />
+      <workItem from="1550045555254" duration="2753000" />
+      <workItem from="1550569409021" duration="3485000" />
+      <workItem from="1550648363772" duration="19257000" />
+      <workItem from="1550673118838" duration="3208000" />
+      <workItem from="1550753401457" duration="2655000" />
+      <workItem from="1550798230503" duration="5343000" />
+      <workItem from="1550814200162" duration="3498000" />
+      <workItem from="1550840503816" duration="8627000" />
+      <workItem from="1550888811206" duration="6335000" />
+      <workItem from="1551188372994" duration="7185000" />
+      <workItem from="1551233405949" duration="2771000" />
+      <workItem from="1551240225485" duration="6485000" />
+      <workItem from="1551511094233" duration="1604000" />
+      <workItem from="1551702425326" duration="1182000" />
+      <workItem from="1551709040903" duration="4911000" />
+      <workItem from="1551770337531" duration="964000" />
+      <workItem from="1551771407525" duration="695000" />
+      <workItem from="1551776398202" duration="4158000" />
+      <workItem from="1553096841732" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="局长创建父工程完成第一次提交">
       <created>1547983777923</created>
@@ -240,47 +470,94 @@
       <option name="project" value="LOCAL" />
       <updated>1547993305138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gateway">
+      <created>1548071432372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548071432372</updated>
+    </task>
+    <task id="LOCAL-00004" summary="item">
+      <created>1548071459215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548071459215</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Fdfs1Test_testUpload - 2019.02.27 at 10h 30m 13s.xml">
+      <configuration name="Fdfs1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Fdfs1Test_testUpload - 2019.02.27 at 12h 28m 06s.xml">
+      <configuration name="Fdfs1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Yy1Test_testUpload - 2019.02.27 at 12h 48m 12s.xml">
+      <configuration name="Yy1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Yy1Test_testUpload - 2019.02.27 at 14h 00m 32s.xml">
+      <configuration name="Yy1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Yy1Test_testUpload - 2019.02.27 at 15h 07m 55s.xml">
+      <configuration name="Yy1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Yy1Test_testUpload - 2019.03.04 at 22h 34m 58s.xml">
+      <configuration name="Yy1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Yy1Test_testUpload - 2019.03.05 at 17h 54m 53s.xml">
+      <configuration name="Yy1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Yy1Test_testUploadAndCreateThumb - 2019.03.05 at 18h 02m 37s.xml">
+      <configuration name="Yy1Test.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Yy1Test_testUpload - 2019.03.05 at 18h 03m 29s.xml">
+      <configuration name="Yy1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Yy1Test_testUpload - 2019.03.05 at 18h 26m 10s.xml">
+      <configuration name="Yy1Test.testUpload" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13232000" />
+    <option name="totallyTimeSpent" value="118708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32935154" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32935154" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5015129" side_tool="true" weight="0.39011925" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32935154" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.32935154" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" sideWeight="0.49848714" weight="0.39078498" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32935154" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,51 +595,403 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="局长创建父工程完成第一次提交" />
     <MESSAGE value="2019-1-20 注册中心修改提交-局长" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-1-20 注册中心修改提交-局长" />
+    <MESSAGE value="registry" />
+    <MESSAGE value="gateway" />
+    <MESSAGE value="item" />
+    <option name="LAST_COMMIT_MESSAGE" value="item" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/CategoryController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aitao-registry/aitao-registry.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aitao-registry/src/main/java/com/common/AitaoRegistry.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/NumberUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aitao-registry/pom.xml">
+    <entry file="file://$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aitao-registry/aitao-registry.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aitao-registry/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/at-item-service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/serviceImpl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-common/src/main/java/com/aitao/common/pojo/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-common/at-common.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-api-gateway/at-api-gateway.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/AtItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-interface/src/main/java/com/aitao/item/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/mapper/BrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/serviceImpl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/mapper/UploadMapper.java" />
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/controller/UploadController.java" />
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/At.java" />
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/service/Load.java" />
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/serviceImpl/UploadServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/service/UploadService.java" />
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/mapper/UploadMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-api-gateway/src/main/java/com/aitao/config/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-api-gateway/src/main/java/com/aitao/AtApiGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="583" selection-start-line="583" selection-end-line="583" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1103" selection-start-line="1103" selection-end-line="1103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/FastClientImporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.8.8/eureka-client-1.8.8-sources.jar!/com/netflix/discovery/TimedSupervisorTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/at-upload.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-item/at-item-interface/src/main/java/com/aitao/item/pojo/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/AtUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aitao-registry/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/service/UploadService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/serviceImpl/UploadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/at-upload/src/test/java/com/aitao/test/Yy1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|at-upload</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -3,5 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aitao-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/at-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/at-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/at-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/at-item/at-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/at-item/at-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/at-upload" charset="UTF-8" />
   </component>
 </project>

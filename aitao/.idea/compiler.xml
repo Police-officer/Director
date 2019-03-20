@@ -7,6 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aitao-registry" />
+        <module name="at-api-gateway" />
+        <module name="at-common" />
+        <module name="at-item-interface" />
+        <module name="at-item-service" />
+        <module name="at-upload" />
       </profile>
     </annotationProcessing>
   </component>
