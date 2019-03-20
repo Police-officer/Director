@@ -1,47 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd64e87-d466-48fd-8ea7-faa8be4d20ed" name="Default Changelist" comment="registry">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-api-gateway/src/main/java/com/aitao/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-common/at-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com.aitao.utils/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-common/src/main/java/com/aitao/common/pojo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-interface/src/main/java/com/aitao/item/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-interface/src/main/java/com/aitao/item/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/serviceImpl/BrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/item/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/at-upload.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/AtUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/FastClientImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/mapper/UploadMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/main/java/com/aitao/upload/serviceImpl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/at-upload/src/test/java/com/aitao/test/Yy1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="5fd64e87-d466-48fd-8ea7-faa8be4d20ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/aitao-registry/src/main/java/com/aitao/AtRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/at-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/at-api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/at-item/at-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/at-item/at-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/at-item/at-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/at-item/at-item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/AtItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/at-item/at-item-service/src/main/java/com/aitao/AtItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +27,7 @@
     <session id="1670479629">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.125" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -95,7 +56,7 @@
         <counts>
           <entry key="dummy" value="22" />
           <entry key="java" value="1963" />
-          <entry key="txt" value="58" />
+          <entry key="txt" value="67" />
           <entry key="xml" value="431" />
           <entry key="yml" value="557" />
         </counts>
@@ -103,7 +64,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1963" />
-          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="PLAIN_TEXT" value="89" />
           <entry key="XML" value="431" />
           <entry key="YAML" value="557" />
         </counts>
@@ -262,7 +223,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553097595961" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553097805036" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -454,7 +415,7 @@
       <workItem from="1551770337531" duration="964000" />
       <workItem from="1551771407525" duration="695000" />
       <workItem from="1551776398202" duration="4158000" />
-      <workItem from="1553096841732" duration="676000" />
+      <workItem from="1553096841732" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="局长创建父工程完成第一次提交">
       <created>1547983777923</created>
@@ -484,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548071459215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2019.3.21">
+      <created>1553097799076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553097799076</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -520,7 +488,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118708000" />
+    <option name="totallyTimeSpent" value="119068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -598,7 +566,8 @@
     <MESSAGE value="registry" />
     <MESSAGE value="gateway" />
     <MESSAGE value="item" />
-    <option name="LAST_COMMIT_MESSAGE" value="item" />
+    <MESSAGE value="2019.3.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019.3.21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
